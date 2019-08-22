@@ -1,6 +1,6 @@
 import sys
 
-instructions = "How many times has Liverpool won the Champions League? You get 5 attempts"
+instructions = "How many times has Liverpool been European Champions? You get 5 attempts"
 
 print(instructions)
 i = 0
