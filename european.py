@@ -13,6 +13,6 @@ while  i <= 4:
             print("You'll Never Walk Alone")
         sys.exit(0)
     print("Wrong")
-    i = i+1
+    i += 1 
 print("The correct answer is 6.")
 sys.exit(0)
