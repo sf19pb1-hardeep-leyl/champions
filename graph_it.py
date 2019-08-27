@@ -17,7 +17,7 @@ for r in range(rows):
                 for cs in range(col_space):
                     print("-", end = "")
                     cs += 1
-                c += 1
+            c += 1
             print("+")
         else:
             for c in range(columns):
@@ -25,7 +25,7 @@ for r in range(rows):
                 for cs in range(col_space):
                     print(" ", end = "")
                     cs += 1
-            cs += 1
+            c += 1
             print("|")
         rs += 1
     r += 1
@@ -38,6 +38,5 @@ for c in range(columns):
         cs += 1
     c += 1
 print("+")
-
 
 sys.exit(0)
