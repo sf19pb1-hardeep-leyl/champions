@@ -24,7 +24,7 @@ voffset = 0
 
 if orientation == "V":
     for i in range(3):
-        canvas.create_rectangle(hoffset, 0, voffset + 200, width, width = 0, fill = colour[i])
+        canvas.create_rectangle(voffset, 0, voffset + 200, width, width = 0, fill = colour[i])
         voffset = voffset + 200
 
 if orientation == "H":
