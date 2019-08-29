@@ -1,6 +1,6 @@
 """
 build_tri_flag.py
-Build a tricolout flag using tkinter Canvas widget.
+Build a tricolour flag using tkinter Canvas widget.
 """
 
 import tkinter              #in Python2, the t was uppercase
