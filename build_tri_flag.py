@@ -24,13 +24,13 @@ voffset = 0
 
 if orientation == "V":
     for i in range(3):
-        canvas.create_rectangle(hoffset, 0, hoffset + 200, width, width = 0, fill = colour[i])
-        hoffset = hoffset + 200
+        canvas.create_rectangle(hoffset, 0, voffset + 200, width, width = 0, fill = colour[i])
+        voffset = voffset + 200
 
 if orientation == "H":
     for i in range(3):
-        canvas.create_rectangle(0, voffset, width, voffset+100, width = 0, fill = colour[i])
-        voffset = voffset + 100
+        canvas.create_rectangle(0, hoffset, width, hoffset+100, width = 0, fill = colour[i])
+        hoffset = hoffset + 100
 
 #Make the canvas visible by packing it into the root.
 canvas.pack(expand = tkinter.YES, fill = "both")
