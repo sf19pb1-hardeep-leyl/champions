@@ -7,7 +7,7 @@ import tkinter              #in Python2, the t was uppercase
 
 print("Let's build a tri-colour flag")
 orientation = input("Would you like horizontal or vertical stripes? Enter H or V: ")
-colour = [ input("Pick the 1st colour "), input("Pick the 2nd colour "), input("Pick the 3rd colour ") ]
+colour = [ input("Pick the 1st colour: "), input("Pick the 2nd colour: "), input("Pick the 3rd colour: ") ]
 
 #The root widget is the window that will contain everything we draw.
 root = tkinter.Tk()
