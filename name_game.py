@@ -15,7 +15,7 @@ while True:
 
     rest = name[1:]
     nameGame = name + "," + name + ",bo-b" + rest + "\n"
-    nameGame = nameGame + "Banana-fana fo-f" + rest + "\n"
-    nameGame = nameGame + "Fee-fi-mo-m" + rest + "\n"
-    nameGame = nameGame + name + "!!"
+    nameGame += "Banana-fana fo-f" + rest + "\n"
+    nameGame += "Fee-fi-mo-m" + rest + "\n"
+    nameGame += name + "!!"
     print(nameGame)
